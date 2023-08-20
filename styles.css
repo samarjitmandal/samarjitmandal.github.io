@@ -1,0 +1,51 @@
+/* Reset some default styling */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.header, .about, .portfolio, .footer {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .header, .about, .portfolio, .footer {
+        margin: 10px;
+    }
+}
