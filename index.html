@@ -1,36 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Welcome to My Page</title>
-</head>
-<body>
-    <header class="header">
-        <h1>Welcome to kunal's website</h1>
-        <p>Sharing my thoughts and experiences with you.</p>
-    </header>
-    
-    <section class="about">
-        <h2>About Me</h2>
-        <p>Hello there! I'm passionate about many things...</p>
-    </section>
-    
-    <section class="portfolio">
-        <h2>My Portfolio</h2>
-        <p>Check out some of my projects below:</p>
-        <ul>
-            <li><a href="">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-        </ul>
-    </section>
-    
-    <footer class="footer">
-        <p>Contact me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    </footer>
-    
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jeet Here...</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"/>
+
+    <!-- style-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #004cff">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/image/opentalk.webp" width="80px" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Automation</a></li>
+                <li><a class="dropdown-item" href="#">Marketing</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">sales</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            </input>
+            <button class="btn btn-outline-light" type="submit">Search...</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- container -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <!-- Tagline -->
+          <h1 class="h1 text-center mt-5 mb-2">
+            Grow your business <br /> 
+            with Jeet
+          </h1>
+          <p class="text-center mt-3">The email marketing, marketing automation, Here you can expriance the best site for free..</p>
+        </div>
+
+        <!-- Get Started button -->
+        <div class="text-center gap-3 row-cols-md-6 mx-auto">
+          <button class="btn btn-primary" type="button">Get Started</button>
+        </div>
+
+
+        
+
+        <!-- Growth coloring rows -->
+     <div class="row justify-content-evenly pt-5 pb-5">
+      <div class="col-md-5 pt-5">
+        <img src="/image/dollar.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-5 pt-5">
+        <h5>Business</h5>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 25%">25%</div>
+        </div>
+
+        <h5>Automation</h5>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+        </div>
+
+        <h5>Marketing</h5>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+        </div>
+
+        <h5>Sales</h5>
+        <div class="progress" role="progressbar" aria-label="primary example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-primary" style="width: 100%">100%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD'S-->
+        <div class="row row-cols-1 justify-content-evenly row-cols-md-3 g-4">
+          <div class="col-12">
+            <div class="card h-100">
+              <img src="/image/email/network image.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Automation</h5>
+                <p class="card-text">Email automation can handle automatic responses to certain user actions, such as sending a welcome email to new subscribers or an order confirmation after a purchase. By leveraging email automation, businesses can save time, maintain consistent communication with their audience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/image/email/email-g9a0ec05e4_1920.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Marketing</h5>
+                <p class="card-text">Email marketing remains a powerful tool for businesses to connect with their audience, nurture leads, promote products or services, and drive sales. However, successful email marketing requires providing value to subscribers, respecting their preferences, and avoiding spammy practices to maintain a positive brand reputation and build long-term relationships with customers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/image/email/sending mail one tab.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Growth</h5>
+                <p class="card-text">Remember that business growth is not always linear, and it may require experimentation and adjustments to find the most effective strategies for your specific business. Stay agile, listen to your customers, and be willing to adapt your approach as you navigate the path to success.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+
+
+      </div>
+      <!-- CARDS -->
+      
+    <h1>Hello, world!</h1>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
