@@ -1,0 +1,168 @@
+/* Reset default styles */
+ body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+} 
+
+/* Global styles */
+body {
+    background-image: url("/image/pixabay.jpg");
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    background-color: #691111;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #aca8e373;
+    padding: 10px;
+    color: #fff;
+    height: 195PX;
+    background-position: top
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    transition: border-color 0.3s;
+}
+    nav ul li a.active {
+    border-color: #faffff;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    border-color: #86e12c;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    transition: border-color 0.3s;
+    border-color: #fff;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero {
+    /* background-color: #f1f1f1; */
+    color: #ffffff;
+}
+
+/* .features {
+    background-color: #fff;
+} */
+
+.features h3 {
+    margin-bottom: 30px;
+}
+
+.features .feature-item {
+  
+
+/* MEDIA TITLE NAME  */
+.active {
+  background-color: #717171;
+}
+
+/* paregraph background-color */
+p {
+  background-color: #eab4b4;
+  border-radius: 15px;
+}  
+
+
+.features .feature-item img {
+    max-width: 100%;
+}
+
+.pricing {
+    background-color: #f1f1f1;
+}
+
+.pricing ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.pricing li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #55f934;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff2323;
+    background-size: 400px 200px;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 1560px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.search-input {
+    position: absolute;
+    top: 175px;
+    left: 5px;
+    margin: 0px;
+    width: 330px;
+    border: 3px solid rgb(25, 130, 210);
+    padding: 8px;
+    border-radius: 30px;
+}
+
+
+
+
+
+@media (max-width: 786px){
+    #main h1{
+        color: #45f023;
+        font-size: small;
+    }
+    
+
+}
+
+
+
+
